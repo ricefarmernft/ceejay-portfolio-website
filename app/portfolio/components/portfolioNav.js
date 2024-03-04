@@ -13,7 +13,7 @@ export default function PortfolioNav(props) {
             >
               Home
             </a>
-            <div className="relative group hover:text-blue-600">
+            <div className="z-20 relative group hover:text-blue-600">
               <a
                 href="/"
                 className="text-lg md:text-2xl transition ease-in-out duration-500"

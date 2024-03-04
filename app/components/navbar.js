@@ -138,7 +138,7 @@ export default function Navbar() {
             <FaBars size={24} />
           </button>
           {isMenuOpen && (
-            <div className="absolute top-0 right-0 mt-14 mr-4 p-3 bg-slate-300 shadow-md flex flex-col items-start md:hidden rounded-lg gap-1">
+            <div className="z-20 absolute top-0 right-0 mt-14 mr-4 p-3 bg-slate-300 shadow-md flex flex-col items-start md:hidden rounded-lg gap-1">
               {/* Mobile menu items */}
               <a
                 href="#about"
