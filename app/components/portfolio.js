@@ -5,8 +5,8 @@ export default function Portfolio() {
     <div className="text-lg md:text-2xl p-4 md:p-8 " id="portfolio">
       <p className="text-3xl md:text-6xl">Portfolio</p>
       <div className="pt-3 md:pt-6 flex flex-col gap-3 md:gap-6 items-center justify-between">
-        {data.map((project) => (
-          <div className="portfolio">
+        {data.map((project, index) => (
+          <div key={index} className="portfolio">
             <p className="text-2xl md:text-4xl font-bold">{project.title}</p>
             <div className="flex flex-col md:flex-row gap-6 pt-4">
               <div className="flex-1 portfolio-item-text self-center">
