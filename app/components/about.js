@@ -20,7 +20,7 @@ export default function About() {
               When I'm not programming, I enjoy watching movies, playing{" "}
               <a
                 className="crypto-link"
-                href="https://www.youtube.com/channel/UCc7HfjGvO7KtBotlmcVoLIA"
+                href="https://www.instagram.com/thevolleyballtraveler/"
                 target="_blank"
                 rel="noreferrer"
               >
