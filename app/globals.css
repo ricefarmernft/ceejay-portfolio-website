@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* For Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+.text {
+  background-color: black;
+}
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(226 232 240);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.hero-img-item {
+  border-radius: 10%;
+  width: 20rem;
+  height: auto;
+}
+
+.crypto-link {
+  color: rgb(37 99 235);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.crypto-link:hover {
+  color: rgb(30 58 138);
+}
+
+.portfolio-item-text {
+  order: 1;
+}
+.portfolio:nth-child(even) .portfolio-item-text {
+  order: 2;
+}
+.portfolio-image {
+  order: 2;
+}
+.portfolio:nth-child(even) .portfolio-image {
+  order: 1;
+}
+.portfolio-image-hover:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+.skills ul li {
+  padding: 1.2rem 0;
+  border: black 1px solid;
+  box-shadow: -4px 4px black;
+  background-color: white;
+  border-radius: 30px;
+  transition: color 0.4s, border 0.4s, box-shadow 0.4s;
+  text-align: center;
+  width: 250px;
+}
+.skills ul li:hover {
+  color: blue;
+  border: blue 1px solid;
+  box-shadow: -4px 4px blue;
+}
+.project-logos {
+  text-align: center;
+  color: rgb(37 99 235);
+  display: flex;
+  justify-content: center;
+}
+.project-img {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.portfolio-link {
+  color: rgb(37 99 235);
+  transition: all 0.3s ease;
+}
+.portfolio-link:hover {
+  color: rgb(8 145 178);
+}
+.project-img-grid {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 25px;
+}
+.hinge-img {
+  max-width: 250px;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .skills ul li {
+    width: 200px;
+  }
+}
