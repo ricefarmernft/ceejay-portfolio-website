@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Crypto() {
   return (
     <>
@@ -23,19 +25,21 @@ export default function Crypto() {
             </p>
           </div>
           <div className="flex-1 flex flex-col gap-2 md:gap-4 items-center   ">
-            <img
-              className="w-96 rounded-2xl"
-              alt="NFT Collection"
-              src="https://res.cloudinary.com/dctoezvq5/image/upload/v1668276832/portfolio/portfolio-image_b2lvt3.png"
-            ></img>
-            <a
+            <Image
+              className="w-96 rounded-2xl shadow-xl"
+              alt="Rice Farmer NFT"
+              src="/ricefarmer-nft.png"
+              width={200}
+              height={200}
+            ></Image>
+            {/* <a
               className="crypto-link text-xl flex"
               href="https://opensea.io/RiceFarmerVault"
               target="_blank"
               rel="noreferrer"
             >
               NFT Collection
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

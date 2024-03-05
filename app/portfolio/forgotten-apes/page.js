@@ -31,7 +31,7 @@ export default function OpenseaRefund() {
           years after their release. Predictably, many owners simply forgot
           about them because they were nearly worthless.
         </p>
-        <p>
+        <p className="pt-3">
           I had seen a few Twitter posts from noteworthy accounts detailing
           their lost apes already.{" "}
           <a

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Header(props) {
   return (
     <>
@@ -27,11 +29,13 @@ export default function Header(props) {
         )}
       </div>
       <div className="project-img">
-        <img
+        <Image
           className="w-10/12 shadow-lg"
           src={props.src}
           alt={props.alt}
-        ></img>
+          width={1000}
+          height={200}
+        ></Image>
       </div>
     </>
   );

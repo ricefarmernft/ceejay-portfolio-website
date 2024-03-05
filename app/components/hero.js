@@ -1,12 +1,16 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <>
       <div className="p-4 md:p-8 md:flex-row flex flex-col gap-8 md:gap-16 items-center">
-        <img
+        <Image
           className="hero-img-item shadow-xl"
-          src="HeroImage.png"
+          src="/HeroImage.png"
           alt="Ceejay Xiong"
-        ></img>
+          width={200}
+          height={200}
+        ></Image>
         <div className="self-center">
           <p className="text-7xl md:text-9xl">Hello!</p>
           <p className="text-4xl md:text-6xl">

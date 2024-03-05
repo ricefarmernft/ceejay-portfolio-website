@@ -10,7 +10,12 @@ export default function Icebreakers() {
   return (
     <>
       {/* Header */}
-      <Header title="Icebreakers" website="https://www.icebreakers.dev/" />
+      <Header
+        title="Icebreakers"
+        website="https://www.icebreakers.dev/"
+        alt="Icebreakers Website"
+        src="/icebreakers-media/icebreakers-landing-page.png"
+      />
       <Content>
         <Title title="Inspiration" />
         <p>
@@ -25,11 +30,6 @@ export default function Icebreakers() {
           seamless solution to this problem by creating an AI app that would
           generate "icebreakers". And so, icebreakers was born!
         </p>
-        <ProjectImg
-          href="https://www.icebreakers.dev/"
-          alt="Icebreakers Website"
-          src="/icebreakers-media/icebreakers-landing-page.png"
-        />
         <List
           languages={["Javascript", "HTML", "CSS"]}
           dependencies={["React", "MUI Library"]}

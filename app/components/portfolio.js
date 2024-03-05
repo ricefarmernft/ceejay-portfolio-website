@@ -1,4 +1,5 @@
 import { data } from "../data/portfolioData";
+import Image from "next/image";
 
 export default function Portfolio() {
   return (
@@ -18,10 +19,12 @@ export default function Portfolio() {
                 }`}
               >
                 <a href={project.href} target="_blank" rel="noreferrer">
-                  <img
+                  <Image
                     className="portfolio-image-hover w-72  md:size-full"
                     src={project.image}
                     alt={project.alt}
+                    width={200}
+                    height={200}
                   />
                 </a>
               </div>

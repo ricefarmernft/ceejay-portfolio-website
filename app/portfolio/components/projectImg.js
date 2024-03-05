@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ProjectImg(props) {
   return (
     <div className="project-img">
@@ -7,11 +9,13 @@ export default function ProjectImg(props) {
         target="_blank"
         rel="noreferrer"
       >
-        <img
+        <Image
           className={`${props.class} shadow-lg`}
           src={props.src}
           alt={props.alt}
-        ></img>
+          width={900}
+          height={200}
+        ></Image>
       </a>
     </div>
   );

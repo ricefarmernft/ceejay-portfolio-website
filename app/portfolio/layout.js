@@ -4,7 +4,7 @@ export default function PortfolioLayout({ children }) {
   return (
     <>
       <PortfolioNav header />
-      <div className="p-4 md:p-8">{children}</div>
+      <div className="py-4 md:p-8">{children}</div>
       <PortfolioNav />
     </>
   );
