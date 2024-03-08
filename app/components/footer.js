@@ -6,7 +6,7 @@ export default function Footer() {
     <>
       <nav className="flex items-center justify-between">
         <a
-          className="text-base md:text-xl flex gap-1  items-center  hover:text-blue-600 transition ease-in-out duration-500"
+          className="text-base md:text-xl flex gap-1  items-center hover:text-blue-600 dark:hover:text-teal-300 transition ease-in-out duration-500"
           href="mailto:ceejayxiong@gmail.com"
           target="_blank"
           rel="noreferrer"
@@ -21,7 +21,7 @@ export default function Footer() {
               href="https://twitter.com/RiceFarmerNFT"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-600 transition ease-in-out duration-500"
+              className="hover:text-blue-600 dark:hover:text-teal-300 transition ease-in-out duration-500"
             >
               <FaTwitter size={24} />{" "}
             </a>
@@ -29,7 +29,7 @@ export default function Footer() {
               href="https://github.com/RiceFarmerNFT"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-600 transition ease-in-out duration-500 "
+              className="hover:text-blue-600 dark:hover:text-teal-300 transition ease-in-out duration-500 "
             >
               <FaGithub size={24} />{" "}
             </a>
@@ -37,7 +37,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/ceejayxiong/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-600 transition ease-in-out duration-500"
+              className="hover:text-blue-600 dark:hover:text-teal-300 transition ease-in-out duration-500"
             >
               <FaLinkedin size={24} />{" "}
             </a>

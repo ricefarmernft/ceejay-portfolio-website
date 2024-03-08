@@ -37,7 +37,7 @@ export default function Portfolio() {
               }`}
             >
               <a
-                className="text-base md:text-xl text-blue-600 underline ease-in-out duration-500 hover:text-blue-500 "
+                className="text-base md:text-xl text-blue-600 dark:text-teal-500 underline ease-in-out duration-500 hover:text-blue-500 dark:hover:text-teal-300 "
                 href={`${project.link}`}
                 rel="noreferrer"
               >

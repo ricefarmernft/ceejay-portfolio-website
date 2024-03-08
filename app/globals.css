@@ -7,6 +7,13 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
 
 /* For Chrome, Safari and Opera */
 body::-webkit-scrollbar {
@@ -22,17 +29,40 @@ body {
 .text {
   background-color: black;
 }
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
 
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(226 232 240);
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: rgb(241 245 249);
+    background-color: rgb(17 24 39);
+  }
+  .crypto-link {
+    color: #14b8a6 !important;
+  }
+  .crypto-link:hover {
+    color: #5eead4 !important;
+  }
+  .skills ul li {
+    border: white 1px solid !important;
+    background-color: black !important;
+  }
+  .skills ul li:hover {
+    color: #5eead4 !important;
+    border: #5eead4 1px solid !important;
+    box-shadow: -4px 4px #5eead4 !important;
+  }
+  .project-logos {
+    color: #14b8a6 !important;
+  }
+  .portfolio-link {
+    color: #14b8a6 !important;
+  }
+  .portfolio-link:hover {
+    color: #5eead4 !important;
+  }
 }
 
 @layer utilities {

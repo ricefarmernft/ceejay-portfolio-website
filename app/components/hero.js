@@ -14,8 +14,9 @@ export default function Hero() {
         <div className="self-center">
           <p className="text-7xl md:text-9xl">Hello!</p>
           <p className="text-4xl md:text-6xl">
-            I'm <span className="text-blue-600 ">Ceejay</span>, a Software
-            Engineer based in Chicago.
+            I'm{" "}
+            <span className="text-blue-600 dark:text-teal-500 ">Ceejay</span>, a
+            Software Engineer based in Chicago.
           </p>
         </div>
       </div>
