@@ -11,6 +11,16 @@ export const data = [
   },
   {
     id: 1,
+    link: "portfolio/chimkens",
+    title: "Chimkens",
+    description:
+      "Chimkens is a collaborative AI NFT project made in conjuction with Henlo. Henlo is the artist and marketer for the project, while I acted as the developer, building both the smart contract and the original website. The project promotes dog-inspired art, in line with the dog memecoin frenzy in the crypto space. We launched 999 NFTs on the Base layer 2 blockchain, raising over 7.5 ETH ($27k) in sales.",
+    image: "/portfolio-home/computer-chimkens.png",
+    alt: "Chimkens",
+    href: "https://chimkens.dog/",
+  },
+  {
+    id: 2,
     link: "portfolio/openask",
     title: "OpenAsk",
     description:
@@ -20,7 +30,7 @@ export const data = [
     href: "https://openask.me/",
   },
   {
-    id: 2,
+    id: 3,
     link: "portfolio/icebreakers",
     title: "Icebreakers",
     description:
@@ -30,7 +40,7 @@ export const data = [
     href: "https://icebreakers.dev/",
   },
   {
-    id: 3,
+    id: 4,
     link: "portfolio/forgotten-apes",
     title: "Forgotten Apes",
     description:
@@ -40,7 +50,7 @@ export const data = [
     href: "https://www.forgottenapes.xyz/",
   },
   {
-    id: 4,
+    id: 5,
     link: "portfolio/opensea-refund",
     title: "Opensea Refund",
     description:
