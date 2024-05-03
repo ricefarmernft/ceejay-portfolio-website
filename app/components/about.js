@@ -6,18 +6,17 @@ export default function About() {
         <div className="pt-3 md:pt-6 flex flex-col md:flex-row gap-3">
           <div className="flex-1 ">
             <p>
-              I'm not just another coder, I bring websites to life with Next.js,
-              React, and Tailwind CSS. But that's not all. I've also taken the
-              rollercoaster ride of entrepreneurship, navigating the high-octane
-              startup world to breathe life into brilliant ideas. What really
-              lights my fire, though? It's Web 3 and AI. I'm on a mission to
-              shape the future by developing cutting-edge blockchain and machine
-              learning applications.
+              I am an experienced Software Engineer proficient in Next.js,
+              Tailwind, JS, and Solidity. But my journey in tech extends beyond
+              development—I'm also a seasoned marketer and an entrepreneur who
+              has thrived in the fast-paced world of startups. I'm fascinated by
+              the potential of Web 3 and AI, particularly in blockchain and
+              machine learning, where I strive to push boundaries and innovate.
             </p>
           </div>
           <div className="flex-1 flex flex-col gap-3 md:gap-6">
             <div>
-              When I'm not programming, I enjoy watching movies, playing{" "}
+              When I'm not programming, I enjoy poker, playing{" "}
               <a
                 className="crypto-link"
                 href="https://www.instagram.com/thevolleyballtraveler/"

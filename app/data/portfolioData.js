@@ -24,7 +24,7 @@ export const data = [
     link: "portfolio/openask",
     title: "OpenAsk",
     description:
-      "Imagine having direct access to the minds of industry leaders and influencers - OpenAsk makes this a reality. By attaching a bounty in USD or Crypto to their questions, users can tap into expert knowledge while demonstrating their earnest desire for connection. OpenAsk filters out the noise for experts, creating a beneficial exchange of insights and rewards.",
+      "Imagine having direct access to the minds of industry leaders and influencers - OpenAsk makes this a reality. By attaching a bounty in USD or Crypto to their questions, users can tap into expert knowledge while demonstrating their earnest desire for connection. OpenAsk filters out the noise for experts, creating a beneficial exchange of insights and rewards. Raised $2MM.",
     image: "/portfolio-home/computer-openask.png",
     alt: "OpenAsk",
     href: "https://openask.me/",
@@ -54,7 +54,7 @@ export const data = [
     link: "portfolio/opensea-refund",
     title: "Opensea Refund",
     description:
-      "Our application leverages the power of blockchain data aggregation to help you reclaim lost gas from failed Opensea transactions. It conveniently organizes these transactions into a comprehensive table, ready to be forwarded to Opensea's help center for a refund. Recoup your losses with our user-friendly tool!",
+      "Opensea Refund leverages the power of blockchain data aggregation to help reclaim lost gas from failed Opensea transactions. It conveniently organizes these transactions into a comprehensive table, ready to be forwarded to Opensea's help center for a refund. Despite its user-friendly interface and practical utility, Opensea deprecated the app, citing conflicts with their operational policies.",
     image: "/portfolio-home/computer-os-refund.png",
     alt: "Opensea Refund",
     href: "https://www.osrefund.app/",
