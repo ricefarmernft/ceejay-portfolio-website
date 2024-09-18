@@ -28,15 +28,17 @@ export default function Header(props) {
           </a>
         )}
       </div>
-      <div className="project-img">
-        <Image
-          className="w-10/12 shadow-lg"
-          src={props.src}
-          alt={props.alt}
-          width={1000}
-          height={200}
-        ></Image>
-      </div>
+      {props.src && (
+        <div className="project-img">
+          <Image
+            className="w-10/12 shadow-lg"
+            src={props.src}
+            alt={props.alt}
+            width={1000}
+            height={200}
+          ></Image>
+        </div>
+      )}
     </>
   );
 }
