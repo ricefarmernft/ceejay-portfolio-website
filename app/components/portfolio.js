@@ -20,11 +20,11 @@ export default function Portfolio() {
               >
                 <a href={project.href} target="_blank" rel="noreferrer">
                   <Image
-                    className="portfolio-image-hover w-72  md:size-full"
+                    className="portfolio-image-hover w-72 md:size-full"
                     src={project.image}
                     alt={project.alt}
-                    width={200}
-                    height={200}
+                    width={800}
+                    height={800}
                   />
                 </a>
               </div>
