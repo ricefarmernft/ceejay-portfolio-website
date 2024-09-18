@@ -4,7 +4,7 @@ export const data = [
     link: "portfolio/ohayo-labs",
     title: "Ohayo Labs",
     description:
-      "Ohayo Labs is a passion project where AI Anime Art meets the blockchain. Spearheading the project from conception to realization, I developed a unique collection of Anime NFT PFPs, powered by an intricately designed Solidity contract. This endeavor not only showcases a blend of art and AI but also demonstrates strategic programming and marketing prowess, successfully selling out 600 NFTs and raising over 20 ETH ($60k).",
+      "Ohayo Labs is a passion project where AI Anime Art meets the blockchain. Spearheading the project from conception to realization, I developed a unique collection of Anime NFT PFPs, powered by an intricately designed Solidity contract. This endeavor not only showcases a blend of art and AI but also demonstrates strategic programming and marketing prowess, successfully selling out 600 NFTs and raising over 20 ETH ($60k) with over 60 ETH ($150k) in volume.",
     image: "/portfolio-home/computer-ohayo.png",
     alt: "Ohayo Labs",
     href: "https://ohayolabs.xyz/",
@@ -14,7 +14,7 @@ export const data = [
     link: "portfolio/chimkens",
     title: "Chimkens",
     description:
-      "Chimkens is a collaborative AI NFT project made in conjuction with Henlo. Henlo is the artist and marketer for the project, while I acted as the developer, building both the smart contract and the original website. The project promotes dog-inspired art, in line with the dog memecoin frenzy in the crypto space. We launched 999 NFTs on the Base layer 2 blockchain, raising over 7.5 ETH ($27k) in sales.",
+      "Chimkens is a collaborative AI NFT project made in conjuction with Henlo. Henlo is the artist and marketer for the project, while I acted as the developer, building both the smart contract and the original website. The project promotes dog-inspired art, in line with the dog memecoin frenzy in the crypto space. We launched 999 NFTs on the Base layer 2 blockchain, raising over 7.5 ETH ($27k) in sales with over 28 ETH ($70k) in volume.",
     image: "/portfolio-home/computer-chimkens.png",
     alt: "Chimkens",
     href: "https://chimkens.dog/",
@@ -34,7 +34,7 @@ export const data = [
     link: "portfolio/icebreakers",
     title: "Icebreakers",
     description:
-      "Got a hot match but stuck on the first message? Meet icebreakers! This nifty tool utilizes OpenAI to whip up personalized pickup lines using your match's name, gender, and a fun fact from their profile. Now you can slide into those DMs with confidence and start building meaningful connections in a snap!",
+      "Got a hot match but stuck on the first message? Meet icebreakers! This nifty tool utilizes OpenAI to whip up personalized pickup lines using your match's name, gender, and a fun fact from their profile. Now you can slide into those DMs with confidence and start building meaningful connections in a snap! *Deprecated due to AI costs",
     image: "/portfolio-home/computer-icebreakers.png",
     alt: "Icebreakers",
     href: "https://icebreakers.dev/",
