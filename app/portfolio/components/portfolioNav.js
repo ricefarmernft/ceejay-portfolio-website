@@ -34,6 +34,12 @@ export default function PortfolioNav(props) {
                   Chimkens
                 </a>
                 <a
+                  href="/portfolio/hoomans"
+                  className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap rounded-t-xl"
+                >
+                  Hoomans
+                </a>
+                <a
                   href="/portfolio/openask"
                   className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap"
                 >

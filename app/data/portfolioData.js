@@ -24,7 +24,7 @@ export const data = [
     link: "portfolio/hoomans",
     title: "Hoomans",
     description:
-      "Hoomans is the next chapter in the evolution of the Chimkens NFT project, brought to life through a collaborative partnership with the original creator, Henlo. Hoomans shifts the focus to the unique owners of the Chimkens, reimagined as their 'hooman' counterparts. My role involved developing the smart contract and designing the project’s website, ensuring a seamless user experience from minting to trading. We successfully launched and sold out 2000 NFTs on the Base layer 2 blockchain, raising over 6.7 ETH ($15.5K).",
+      "Hoomans is the next chapter in the evolution of the Chimkens NFT project, brought to life through a collaborative partnership with the original creator, Henlo. Hoomans shifts the focus to the unique owners of the Chimkens, reimagined as their 'hooman' counterparts. My role involved developing the smart contract and designing the project’s website, ensuring a seamless user experience from minting to trading. We successfully launched and sold out 2000 NFTs on the Base layer 2 blockchain, raising over 6.7 ETH ($15.5K) with over 60 ETH in volume ($138k).",
     image: "/portfolio-home/computer-hoomans.png",
     alt: "Hoomans",
     href: "https://x.com/hoomansonbase",

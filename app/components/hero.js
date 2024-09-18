@@ -16,7 +16,7 @@ export default function Hero() {
           <p className="text-4xl md:text-6xl">
             I'm{" "}
             <span className="text-blue-600 dark:text-teal-500 ">Ceejay</span>, a
-            Software Engineer based in Chicago.
+            Software Engineer based in Chicago and Bangkok.
           </p>
         </div>
       </div>
