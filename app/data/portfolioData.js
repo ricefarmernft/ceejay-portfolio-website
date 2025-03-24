@@ -17,7 +17,7 @@ export const data = [
       "Chimkens is a collaborative AI NFT project made in conjuction with Henlo. Henlo is the artist and marketer for the project, while I acted as the developer, building both the smart contract and the original website. The project promotes dog-inspired art, in line with the dog memecoin frenzy in the crypto space. We launched 999 NFTs on the Base layer 2 blockchain, raising over 7.5 ETH ($27k) in sales with over 28 ETH ($70k) in volume.",
     image: "/portfolio-home/computer-chimkens.png",
     alt: "Chimkens",
-    href: "https://chimkens.dog/",
+    href: "https://x.com/chimkensnft",
   },
   {
     id: 2,
@@ -44,10 +44,9 @@ export const data = [
     link: "portfolio/icebreakers",
     title: "Icebreakers",
     description:
-      "Got a hot match but stuck on the first message? Meet icebreakers! This nifty tool utilizes OpenAI to whip up personalized pickup lines using your match's name, gender, and a fun fact from their profile. Now you can slide into those DMs with confidence and start building meaningful connections in a snap! *Deprecated due to AI costs",
+      "Got a hot match but stuck on the first message? Meet icebreakers! This nifty tool utilizes OpenAI to whip up personalized pickup lines using your match's name, gender, and a fun fact from their profile. Now you can slide into those DMs with confidence and start building meaningful connections in a snap! (Deprecated due to AI costs)",
     image: "/portfolio-home/computer-icebreakers.png",
     alt: "Icebreakers",
-    href: "https://icebreakers.dev/",
   },
   {
     id: 5,

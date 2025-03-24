@@ -9,13 +9,13 @@ export default function Skills() {
             <li>Next.js</li>
             <li>React</li>
             <li>Javascript</li>
+            <li>Typescript</li>
             <li>Tailwind CSS</li>
             <li>Solidity</li>
             <li>PostgreSQL</li>
             <li>Node.js</li>
             <li>Ethers.js</li>
             <li>OpenAi</li>
-            <li>Git</li>
             <li>Supabase</li>
             <li>Postman</li>
             <li>Crypto</li>

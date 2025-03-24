@@ -12,7 +12,7 @@ export default function Chimkens() {
       {/* Header */}
       <Header
         title="Chimkens"
-        website="https://www.chimkens.dog/"
+        website="https://x.com/chimkensnft"
         alt="Chimkens"
         src="/chimkens-media/chimkens-collage.jpeg"
       />

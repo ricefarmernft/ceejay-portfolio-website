@@ -12,8 +12,6 @@ export default function Icebreakers() {
       {/* Header */}
       <Header
         title="Icebreakers"
-        website="https://www.icebreakers.dev/"
-        alt="Icebreakers Website"
         src="/icebreakers-media/icebreakers-landing-page.png"
       />
       <Content>
@@ -212,9 +210,7 @@ export default function Icebreakers() {
           luck!
         </p>
         <Title
-          title={
-            "* Due to rising AI costs this appllication is Deprecated! You can still visit the website for the UI but the functionality will not work!"
-          }
+          title={"* Due to rising AI costs this appllication is Deprecated!"}
         />
       </Content>
     </>
