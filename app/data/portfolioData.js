@@ -1,6 +1,16 @@
 export const data = [
   {
     id: 0,
+    link: "portfolio/epstein-library",
+    title: "Epstein Library",
+    description:
+      "The Epstein Library is a web application that allows users to easily browse, search, and view the Epstein files in a more organized manner. Users can search by dataset, filter by file type, filter by most viewed, and view files in a clean and intuitive interface. The goal of the Epstein Library is to make the Epstein files more accessible to the public.",
+    image: "/portfolio-home/computer-epstein-library.png",
+    alt: "Epstein Library",
+    href: "https://epsteinlibrary.org/",
+  },
+  {
+    id: 1,
     link: "portfolio/ohayo-labs",
     title: "Ohayo Labs",
     description:
@@ -10,7 +20,7 @@ export const data = [
     href: "https://ohayolabs.xyz/",
   },
   {
-    id: 1,
+    id: 2,
     link: "portfolio/chimkens",
     title: "Chimkens",
     description:
@@ -18,16 +28,6 @@ export const data = [
     image: "/portfolio-home/computer-chimkens.png",
     alt: "Chimkens",
     href: "https://x.com/chimkensnft",
-  },
-  {
-    id: 2,
-    link: "portfolio/hoomans",
-    title: "Hoomans",
-    description:
-      "Hoomans is the next chapter in the evolution of the Chimkens NFT project, brought to life through a collaborative partnership with the original creator, Henlo. Hoomans shifts the focus to the unique owners of the Chimkens, reimagined as their 'hooman' counterparts. My role involved developing the smart contract and designing the project’s website, ensuring a seamless user experience from minting to trading. We successfully launched and sold out 2000 NFTs on the Base layer 2 blockchain, raising over 6.7 ETH ($15.5K) with over 60 ETH in volume ($138k).",
-    image: "/portfolio-home/computer-hoomans.png",
-    alt: "Hoomans",
-    href: "https://x.com/hoomansonbase",
   },
   {
     id: 3,
