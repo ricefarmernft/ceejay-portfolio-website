@@ -203,14 +203,14 @@ export default function Icebreakers() {
           then modify it slightly to your personality, as the responses can
           sometimes sound "AI generated".
         </p>
-        <p className="pt-3 pb-3">
+        <p className="pt-3 pb-3 flex justify-center">
           I also added a new feature where you can generate more icebreakers
           based on a previous icebreaker. This is useful if you like the style
           of a particular icebreaker and want to generate more like it! Good
           luck!
         </p>
         <Title
-          title={"* Due to rising AI costs this appllication is Deprecated!"}
+          title={"* Due to rising AI costs this application is Deprecated!"}
         />
       </Content>
     </>

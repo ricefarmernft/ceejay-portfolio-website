@@ -3,8 +3,14 @@ export const data = [
     id: 0,
     link: "portfolio/epstein-library",
     title: "Epstein Library",
-    description:
-      "The Epstein Library is a web application that allows users to easily browse, search, and view the Epstein files in a more organized manner. Users can search by dataset, filter by file type, filter by most viewed, and view files in a clean and intuitive interface. The goal of the Epstein Library is to make the Epstein files more accessible to the public.",
+    description: `
+The Epstein Library is a web application that allows users to easily browse,
+search, and view the Epstein files in a more organized manner.
+Users can search by dataset, filter by file type and most viewed, and view
+randomized files in a clean and intuitive interface.
+The goal of the Epstein Library is to make the Epstein files more accessible
+to the public.
+`,
     image: "/portfolio-home/computer-epstein-library.png",
     alt: "Epstein Library",
     href: "https://epsteinlibrary.org/",
@@ -13,8 +19,14 @@ export const data = [
     id: 1,
     link: "portfolio/ohayo-labs",
     title: "Ohayo Labs",
-    description:
-      "Ohayo Labs is a passion project where AI Anime Art meets the blockchain. Spearheading the project from conception to realization, I developed a unique collection of Anime NFT PFPs, powered by an intricately designed Solidity contract. This endeavor not only showcases a blend of art and AI but also demonstrates strategic programming and marketing prowess, successfully selling out 600 NFTs and raising over 20 ETH ($60k) with over 60 ETH ($150k) in volume.",
+    description: `
+Ohayo Labs is a passion project where AI Anime Art meets the blockchain.
+Spearheading the project from conception to realization, I developed a unique
+collection of Anime NFT PFPs, powered by an intricately designed Solidity
+contract. This endeavor showcases a blend of art, AI, programming, and marketing,
+successfully selling out 600 NFTs and raising over 20 ETH ($60k) with over
+60 ETH ($150k) in total volume.
+`,
     image: "/portfolio-home/computer-ohayo.png",
     alt: "Ohayo Labs",
     href: "https://ohayolabs.xyz/",
@@ -23,8 +35,13 @@ export const data = [
     id: 2,
     link: "portfolio/chimkens",
     title: "Chimkens",
-    description:
-      "Chimkens is a collaborative AI NFT project made in conjuction with Henlo. Henlo is the artist and marketer for the project, while I acted as the developer, building both the smart contract and the original website. The project promotes dog-inspired art, in line with the dog memecoin frenzy in the crypto space. We launched 999 NFTs on the Base layer 2 blockchain, raising over 7.5 ETH ($27k) in sales with over 28 ETH ($70k) in volume.",
+    description: `
+Chimkens is a collaborative AI NFT project made in conjunction with Henlo.
+Henlo acted as the artist and marketer, while I served as the developer,
+building both the smart contract and the original website.
+We launched 999 NFTs on the Base layer 2 blockchain, raising over 7.5 ETH
+($27k) in sales with over 28 ETH ($70k) in total volume.
+`,
     image: "/portfolio-home/computer-chimkens.png",
     alt: "Chimkens",
     href: "https://x.com/chimkensnft",
@@ -33,8 +50,15 @@ export const data = [
     id: 3,
     link: "portfolio/openask",
     title: "OpenAsk",
-    description:
-      "Imagine having direct access to the minds of industry leaders and influencers - OpenAsk makes this a reality. By attaching a bounty in USD or Crypto to their questions, users can tap into expert knowledge while demonstrating their earnest desire for connection. OpenAsk filters out the noise for experts, creating a beneficial exchange of insights and rewards. Raised $2MM.",
+    description: `
+OpenAsk gives users direct access to industry leaders and influencers by
+allowing them to attach bounties in USD or crypto to their questions.
+
+This model filters out noise for experts while rewarding meaningful answers,
+creating a mutually beneficial exchange of insight and value.
+
+The company raised $2MM.
+`,
     image: "/portfolio-home/computer-openask.png",
     alt: "OpenAsk",
     href: "https://openask.me/",
@@ -43,8 +67,12 @@ export const data = [
     id: 4,
     link: "portfolio/icebreakers",
     title: "Icebreakers",
-    description:
-      "Got a hot match but stuck on the first message? Meet icebreakers! This nifty tool utilizes OpenAI to whip up personalized pickup lines using your match's name, gender, and a fun fact from their profile. Now you can slide into those DMs with confidence and start building meaningful connections in a snap! (Deprecated due to AI costs)",
+    description: `
+Icebreakers is a lightweight tool that uses OpenAI to generate personalized
+pickup lines based on a match's name, gender, and profile details.
+It was designed to help users confidently start conversations, but was
+eventually deprecated due to rising AI costs.
+`,
     image: "/portfolio-home/computer-icebreakers.png",
     alt: "Icebreakers",
   },
@@ -52,8 +80,12 @@ export const data = [
     id: 5,
     link: "portfolio/forgotten-apes",
     title: "Forgotten Apes",
-    description:
-      "Forgotten Apes provides a fascinating exploration into the world of Bored Apes, uncovering the intriguing facts about those that appear to be lost in time. Leveraging robust blockchain data analysis, we present this information in a simple, easy-to-understand user interface. Discover the captivating stories of these unclaimed and forgotten digital assets.",
+    description: `
+Forgotten Apes explores the world of unclaimed Bored Ape NFTs through
+blockchain data analysis.
+The project presents this information in a clean, accessible interface,
+highlighting the stories behind forgotten digital assets.
+`,
     image: "/portfolio-home/computer-forgotten-apes.png",
     alt: "Forgotten Apes",
     href: "https://www.forgottenapes.xyz/",
@@ -62,10 +94,15 @@ export const data = [
     id: 6,
     link: "portfolio/opensea-refund",
     title: "Opensea Refund",
-    description:
-      "Opensea Refund leverages the power of blockchain data aggregation to help reclaim lost gas from failed Opensea transactions. It conveniently organizes these transactions into a comprehensive table, ready to be forwarded to Opensea's help center for a refund. Despite its user-friendly interface and practical utility, Opensea deprecated the app, citing conflicts with their operational policies.",
+    description: `
+Opensea Refund aggregates blockchain transaction data to help users reclaim
+lost gas fees from failed Opensea transactions.
+The app organizes these transactions into a clear table that can be submitted
+directly to Opensea's support team.
+Despite its utility, the app was later deprecated due to platform policy
+conflicts.
+`,
     image: "/portfolio-home/computer-os-refund.png",
     alt: "Opensea Refund",
-    href: "https://www.osrefund.app/",
   },
 ];

@@ -5,6 +5,7 @@ import TweetFormat from "../components/tweetFormat";
 import List from "../components/list";
 import ProjectImg from "../components/projectImg";
 import SubTitle from "../components/subTitle";
+import PortfolioImg from "../components/portfolioImg";
 
 export default function OpenseaRefund() {
   return (
@@ -45,9 +46,10 @@ export default function OpenseaRefund() {
           </a>{" "}
           Why would someone do this? Well, I had to ask for myself:
         </p>
-        <ProjectImg
+        <PortfolioImg
           src="/forgotten-apes-media/forgotten-apes-taylorwtf.png"
           alt="TaylorWTF Tweet"
+          width={500}
         />
         <p>
           <a
