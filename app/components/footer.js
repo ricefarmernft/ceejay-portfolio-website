@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="flex space-x-5 text-lg">
           <div className="flex space-x-2">
             <a
-              href="https://twitter.com/RiceFarmerNFT"
+              href="https://x.com/RiceFarmerNFT"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600 dark:hover:text-teal-300 transition ease-in-out duration-500"

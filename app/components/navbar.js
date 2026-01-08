@@ -30,6 +30,12 @@ export default function Navbar() {
             </a>
             <div className="absolute hidden group-hover:block bg-white shadow-lg dark:bg-slate-950 rounded-xl text-sm md:text-base text-black dark:text-white ">
               <a
+                href="/portfolio/epstein-library"
+                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap rounded-t-xl"
+              >
+                Epstein Library
+              </a>
+              <a
                 href="/portfolio/ohayo-labs"
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap rounded-t-xl"
               >
@@ -40,12 +46,6 @@ export default function Navbar() {
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap rounded-t-xl"
               >
                 Chimkens
-              </a>
-              <a
-                href="/portfolio/hoomans"
-                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap rounded-t-xl"
-              >
-                Hoomans
               </a>
               <a
                 href="/portfolio/openask"
@@ -88,7 +88,7 @@ export default function Navbar() {
           </a>
           <div className="flex space-x-2">
             <a
-              href="https://twitter.com/RiceFarmerNFT"
+              href="https://x.com/RiceFarmerNFT"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600 dark:hover:text-teal-300 transition ease-in-out duration-500"
@@ -120,7 +120,7 @@ export default function Navbar() {
         <div className="text-2xl font-bold">Ceejay Xiong</div>
         <div className="flex gap-3 items-center">
           <a
-            href="https://twitter.com/RiceFarmerNFT"
+            href="https://x.com/RiceFarmerNFT"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-teal-300 transition ease-in-out duration-500"
@@ -167,16 +167,16 @@ export default function Navbar() {
                 </a>
                 <div className=" group-hover:block">
                   <a
+                    href="/portfolio/epstein-library"
+                    className="block px-2 py-1  hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap"
+                  >
+                    Epstein Library
+                  </a>
+                  <a
                     href="/portfolio/ohayo-labs"
                     className="block px-2 py-1  hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap"
                   >
                     Ohayo Labs
-                  </a>
-                  <a
-                    href="/portfolio/chimkens"
-                    className="block px-2 py-1  hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap"
-                  >
-                    Chimkens
                   </a>
                   <a
                     href="/portfolio/hoomans"
