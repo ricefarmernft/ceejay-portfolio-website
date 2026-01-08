@@ -15,6 +15,7 @@ export default function ProjectImg(props) {
           alt={props.alt}
           width={900}
           height={200}
+          unoptimized
         ></Image>
       </a>
     </div>

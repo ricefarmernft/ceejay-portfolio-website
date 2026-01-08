@@ -10,6 +10,7 @@ export default function Hero() {
           alt="Ceejay Xiong"
           width={200}
           height={200}
+          unoptimized
         ></Image>
         <div className="self-center">
           <p className="text-7xl md:text-9xl">Hello!</p>

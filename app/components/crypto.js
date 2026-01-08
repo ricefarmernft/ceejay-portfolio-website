@@ -34,6 +34,7 @@ export default function Crypto() {
               src="/ricefarmer-nft.png"
               width={200}
               height={200}
+              unoptimized
             ></Image>
           </div>
         </div>

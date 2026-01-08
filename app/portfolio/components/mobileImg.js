@@ -15,6 +15,7 @@ export default function MobileImg(props) {
           alt={props.alt}
           width={500}
           height={200}
+          unoptimized
         ></Image>
       </a>
     </div>

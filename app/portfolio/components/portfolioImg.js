@@ -15,6 +15,7 @@ export default function PortfolioImg(props) {
           alt={props.alt}
           width={props.width || 900}
           height={props.height || 200}
+          unoptimized
         ></Image>
       </a>
     </div>

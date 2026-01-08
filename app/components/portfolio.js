@@ -25,6 +25,7 @@ export default function Portfolio() {
                     alt={project.alt}
                     width={800}
                     height={800}
+                    unoptimized
                   />
                 </a>
               </div>

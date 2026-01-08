@@ -36,6 +36,7 @@ export default function Header(props) {
             alt={props.alt}
             width={1000}
             height={1000}
+            unoptimized
           ></Image>
         </div>
       )}
