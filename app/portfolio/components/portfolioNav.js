@@ -22,6 +22,12 @@ export default function PortfolioNav(props) {
               </a>
               <div className="absolute hidden group-hover:block bg-white dark:bg-slate-950 shadow-lg rounded-xl text-sm md:text-base text-black dark:text-white">
                 <a
+                  href="/portfolio/epstein-library"
+                  className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap rounded-t-xl"
+                >
+                  Epstein Library
+                </a>
+                <a
                   href="/portfolio/ohayo-labs"
                   className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap rounded-t-xl"
                 >
@@ -32,12 +38,6 @@ export default function PortfolioNav(props) {
                   className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap rounded-t-xl"
                 >
                   Chimkens
-                </a>
-                <a
-                  href="/portfolio/hoomans"
-                  className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-teal-300 whitespace-nowrap rounded-t-xl"
-                >
-                  Hoomans
                 </a>
                 <a
                   href="/portfolio/openask"
