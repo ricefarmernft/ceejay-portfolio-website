@@ -8,19 +8,19 @@ export default function Skills() {
           <ul className="flex justify-around items-center flex-wrap gap-4">
             <li>Next.js</li>
             <li>React</li>
-            <li>Javascript</li>
             <li>Typescript</li>
+            <li>Javascript</li>
             <li>Tailwind CSS</li>
             <li>Solidity</li>
+            <li>Supabase</li>
             <li>PostgreSQL</li>
             <li>Node.js</li>
             <li>Ethers.js</li>
             <li>OpenAi</li>
-            <li>Supabase</li>
+            <li>Cloudflare</li>
             <li>Postman</li>
             <li>Crypto</li>
             <li>Blockchain</li>
-            <li>DeFi</li>
             <li>NFTs</li>
           </ul>
         </div>
