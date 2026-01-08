@@ -6,17 +6,19 @@ export default function About() {
         <div className="pt-3 md:pt-6 flex flex-col md:flex-row gap-3">
           <div className="flex-1 ">
             <p>
-              I am an experienced Software Engineer proficient in Next.js,
-              Tailwind, JS, and Solidity. But my journey in tech extends beyond
-              development—I'm also a seasoned marketer and an entrepreneur who
-              has thrived in the fast-paced world of startups. I'm fascinated by
-              the potential of Web 3 and AI, particularly in blockchain and
-              machine learning, where I strive to push boundaries and innovate.
+              I am an experienced Software Engineer who enjoys spotting emerging
+              trends early and building tools around them. I work primarily with
+              Next.js, Tailwind, and JavaScript/TypeScript, and I also have
+              experience with Solidity and blockchain systems. My background
+              goes beyond engineering, as I've worked as a marketer and
+              entrepreneur in fast-paced startup environments. I'm especially
+              interested in Web3 and AI, where I experiment at the intersection
+              of data, UI, and distribution.
             </p>
           </div>
           <div className="flex-1 flex flex-col gap-3 md:gap-6">
             <div>
-              When I'm not programming, I enjoy poker, playing{" "}
+              When I'm not programming, I enjoy traveling, playing{" "}
               <a
                 className="crypto-link"
                 href="https://www.instagram.com/thevolleyballtraveler/"
@@ -28,11 +30,11 @@ export default function About() {
               at the beach, and sharing my thoughts and creations on{" "}
               <a
                 className="crypto-link"
-                href="https://twitter.com/RiceFarmerNFT"
+                href="https://X.com/RiceFarmerNFT"
                 target="_blank"
                 rel="noreferrer"
               >
-                Twitter
+                X
               </a>
               .
             </div>
