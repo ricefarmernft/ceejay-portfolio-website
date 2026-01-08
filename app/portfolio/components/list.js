@@ -1,6 +1,6 @@
 export default function List(props) {
   return (
-    <div className="flex justify-between flex-wrap w-full p-4 md:p-6">
+    <div className="flex justify-between flex-wrap w-full p-4 md:p-6 mt-2">
       {props.languages && (
         <div>
           <p className="text-xl md:text-3xl ">Languages</p>
