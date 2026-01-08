@@ -29,13 +29,13 @@ export default function Header(props) {
         )}
       </div>
       {props.src && (
-        <div className="project-img">
+        <div className="flex justify-center pt-4">
           <Image
             className="w-10/12 shadow-lg"
             src={props.src}
             alt={props.alt}
             width={1000}
-            height={200}
+            height={1000}
           ></Image>
         </div>
       )}

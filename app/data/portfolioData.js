@@ -61,7 +61,7 @@ The company raised $2MM.
 `,
     image: "/portfolio-home/computer-openask.png",
     alt: "OpenAsk",
-    href: "https://openask.me/",
+    // href: "https://openask.me/",
   },
   {
     id: 4,
