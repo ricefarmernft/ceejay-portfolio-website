@@ -44,7 +44,7 @@ We launched 999 NFTs on the Base layer 2 blockchain, raising over 7.5 ETH
 `,
     image: "/portfolio-home/computer-chimkens.png",
     alt: "Chimkens",
-    href: "https://x.com/chimkensnft",
+    href: "https://chimkens-website.vercel.app/",
   },
   {
     id: 3,
@@ -75,6 +75,7 @@ eventually deprecated due to rising AI costs.
 `,
     image: "/portfolio-home/computer-icebreakers.png",
     alt: "Icebreakers",
+    href: "https://icebreaker-one.vercel.app/",
   },
   {
     id: 5,

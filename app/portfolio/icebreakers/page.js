@@ -16,6 +16,7 @@ export default function Icebreakers() {
         <Header
           title="Icebreakers"
           src="/icebreakers-media/icebreakers-landing-page.png"
+          website="https://icebreaker-one.vercel.app/"
         />
         <Content>
           <Title title="Inspiration" />

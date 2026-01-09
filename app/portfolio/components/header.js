@@ -27,6 +27,16 @@ export default function Header(props) {
             Github
           </a>
         )}
+        {props.twitter && (
+          <a
+            href={props.twitter}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline transition ease-in-out duration-500"
+          >
+            Twitter
+          </a>
+        )}
       </div>
       {props.src && (
         <div className="flex justify-center pt-4">

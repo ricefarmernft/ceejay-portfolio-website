@@ -15,9 +15,10 @@ export default function Chimkens() {
         {/* Header */}
         <Header
           title="Chimkens"
-          website="https://x.com/chimkensnft"
+          website="https://chimkens-website.vercel.app/"
           alt="Chimkens"
           src="/chimkens-media/chimkens-collage.jpeg"
+          twitter="https://x.com/chimkensnft"
         />
         <Content>
           <Title title="Inspiration" />
