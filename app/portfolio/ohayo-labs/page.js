@@ -41,7 +41,7 @@ export default function OhayoLabs() {
             over 25k followers on{" "}
             <a
               className="portfolio-link"
-              href="https://x.com/ricefarmernft/"
+              href="https://x.com/ricefarmer0x/"
               target="_blank"
               rel="noreferrer"
             >
@@ -266,7 +266,7 @@ export default function OhayoLabs() {
             with each other. Feel free to DM me on{" "}
             <a
               className="portfolio-link"
-              href="https://x.com/ricefarmernft/"
+              href="https://x.com/ricefarmer0x/"
               target="_blank"
               rel="noreferrer"
             >

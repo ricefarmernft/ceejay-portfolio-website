@@ -17,7 +17,7 @@ export default function Crypto() {
               Outside of code, I write and share insights on the space on{" "}
               <a
                 className="crypto-link"
-                href="https://x.com/RiceFarmerNFT"
+                href="https://x.com/RiceFarmer0x"
                 target="_blank"
                 rel="noreferrer"
               >

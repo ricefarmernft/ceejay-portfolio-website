@@ -88,7 +88,7 @@ export default function Navbar() {
           </a>
           <div className="flex space-x-2">
             <a
-              href="https://x.com/RiceFarmerNFT"
+              href="https://x.com/RiceFarmer0x"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600 dark:hover:text-teal-300 transition ease-in-out duration-500"
@@ -120,7 +120,7 @@ export default function Navbar() {
         <div className="text-2xl font-bold">Ceejay Xiong</div>
         <div className="flex gap-3 items-center">
           <a
-            href="https://x.com/RiceFarmerNFT"
+            href="https://x.com/RiceFarmer0x"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-600 dark:hover:text-teal-300 transition ease-in-out duration-500"

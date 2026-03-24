@@ -30,7 +30,7 @@ export default function About() {
               at the beach, and sharing my thoughts and creations on{" "}
               <a
                 className="crypto-link"
-                href="https://X.com/RiceFarmerNFT"
+                href="https://X.com/RiceFarmer0x"
                 target="_blank"
                 rel="noreferrer"
               >
